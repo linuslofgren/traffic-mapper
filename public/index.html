@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Karta</title>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/crossfilter/1.3.12/crossfilter.js" charset="utf-8"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js" charset="utf-8"></script>
+		<script type="text/javascript" src="style.js"></script>
+		<script type="text/javascript" src="mapping.js"></script>
+		<script type="text/javascript" src="main.js"></script>
+		<script type="text/javascript" src="dataController.js"></script>
+		<script type="text/javascript" src="chartSetups.js"></script>
+
+		<!-- <script type="text/javascript" src="sidebarStats.js"></script> -->
+		<link rel="stylesheet" href="master.css" />
+		<link rel="stylesheet" href="popup.css" />
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	</head>
+	<body>
+		<div class="content">
+			<div class="options-bar" style="display: none;">
+				<form name="setDates" class="" action="#">
+					<div class="compare-options">
+						<div class="comapre-this compare-thing">
+							Från
+							<div class="compare-setting">
+								<input type="time" name="t11" value="">
+								<div class="compare-sync">
+									Sync
+									<div class="compare-sync-line"></div>
+								</div>
+								<input type="time" name="t21" value="">
+							</div>
+							<div class="compare-setting">
+								<input type="date" name="d11" value="">
+								<div class="compare-sync">
+									Sync
+									<div class="compare-sync-line"></div>
+								</div>
+								<input type="date" name="d21" value="">
+							</div>
+							Till
+							<div class="compare-setting">
+								<input type="time" name="t12" value="">
+								<div class="compare-sync">
+									Sync
+									<div class="compare-sync-line"></div>
+								</div>
+								<input type="time" name="t22" value="">
+							</div>
+							<div class="compare-setting">
+								<input type="date" name="d12" value="">
+								<div class="compare-sync">
+									Sync
+									<div class="compare-sync-line"></div>
+								</div>
+								<input type="date" name="d22" value="">
+							</div>
+						</div>
+				</div>
+				</form>
+			</div>
+			<div class="map-outline">
+				<div class="info-top">
+
+
+				<h1 class="info-title">
+					Linköping<br/>Trafik
+					<span class="info-sub">2018-2020</span>
+				</h1>
+
+				<div class="info-container minify-chart">
+
+					<div class="picker">
+						<ul class="picker-inView">
+
+						</ul>
+						<ul class="picker-picked">
+
+						</ul>
+					</div>
+					<div class="canvas-container">
+						<h3 class="info-chart-title">Plats</h3>
+						<canvas id="myChart" class="chart"></canvas>
+					</div>
+					<div class="canvas-container">
+
+						<canvas class="chart"></canvas>
+					</div>
+					<!-- <div class="canvas-container">
+						<canvas class="chart"></canvas>
+					</div> -->
+					<!-- <div class="canvas-container">
+						<canvas class="chart"></canvas>
+					</div> -->
+					<!-- <i onClick="expandChart(this)" name="button" class="expand-button fas fa-expand-arrows-alt"></i> -->
+				</div>
+				</div>
+				<div class="map-container">
+					<div class="map" id="map">
+
+					</div>
+					<div class="overlay">
+					</div>
+
+				</div>
+			</div>
+
+
+
+			<div class="sidebar" id="sidebar">
+				<div class="sidebar-container">
+					<div class="graph", id="mainGraph">
+
+					</div>
+					<div class="graph", id="secGraph">
+
+					</div>
+					<!-- <input type="range" min="0" max="300" name="" value="" onChange="changeVal(this)"> -->
+					<p id="number"><span class="filter"></span></p>
+				</div>
+			</div>
+		</div>
+		<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+		<script type="text/javascript" async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyByO-GirC4xMk855AHEz07HjXvFGQN1gWA&callback=initMap"></script>
+	</body>
+</html>

@@ -1,0 +1,740 @@
+{
+  "sites": [
+    {
+      "lines": [
+        {
+          "directions": [
+            {
+              "name": "282 - Mot Snickaregatan",
+              "id": 1
+            },
+            {
+              "name": "102 - Från Snickaregatan",
+              "id": 2
+            }
+          ],
+          "name": "Skepparegatan",
+          "id": 1
+        }
+      ],
+      "name": "C1004 - Simhallen",
+      "id": 1
+    },
+    {
+      "lines": [
+        {
+          "directions": [
+            {
+              "name": "185 - Från Kylaregatan",
+              "id": 5,
+							"position": {
+								"lat": 58.40692,
+								"lng": 15.67890
+							}
+            },
+            {
+              "name": "5 - Mot Kylaregatan",
+              "id": 6,
+							"position": {
+								"lat": 58.36092,
+								"lng": 15.60890
+							}
+            }
+          ],
+          "name": "Norr",
+          "id": 3
+        },
+        {
+          "directions": [
+            {
+              "name": "185 - Mot Johannelund",
+              "id": 4,
+							"position": {
+								"lat": 58.68692,
+								"lng": 12.87890
+							}
+            },
+            {
+              "name": "5 - Från Johannelund",
+              "id": 3,
+							"position": {
+								"lat": 58.68692,
+								"lng": 13.87890
+							}
+            }
+          ],
+          "name": "Syd",
+          "id": 2
+        },
+        {
+          "directions": [
+            {
+              "name": "95 - Från Braskens bro",
+              "id": 7
+            },
+            {
+              "name": "275 - Mot Braskens bro",
+              "id": 8
+            }
+          ],
+          "name": "Väst",
+          "id": 4
+        }
+      ],
+      "name": "C1015 - Brokindsleden",
+      "id": 2
+    },
+    {
+      "lines": [
+        {
+          "directions": [
+            {
+              "name": "237 - Mot Universitetet",
+              "id": 9
+            },
+            {
+              "name": "57 - Från Universitetet",
+              "id": 10
+            }
+          ],
+          "name": "Vallaskogen",
+          "id": 5
+        }
+      ],
+      "name": "C1029 - Vallaskogen",
+      "id": 3
+    },
+    {
+      "lines": [
+        {
+          "directions": [
+            {
+              "name": "331 - Mot centrum",
+              "id": 11
+            },
+            {
+              "name": "151 - Mot Åleryd",
+              "id": 12
+            }
+          ],
+          "name": "Vistvägen",
+          "id": 6
+        }
+      ],
+      "name": "C1016 - Berga centrum",
+      "id": 4
+    },
+    {
+      "lines": [
+        {
+          "directions": [
+            {
+              "name": "134 - Från Kunskapslänken",
+              "id": 13
+            },
+            {
+              "name": "314 - Mot Kunskapslänken",
+              "id": 14
+            }
+          ],
+          "name": "Nordväst",
+          "id": 7
+        },
+        {
+          "directions": [
+            {
+              "name": "44 - Från Lambohov",
+              "id": 15
+            },
+            {
+              "name": "224 - Mot Lambohov",
+              "id": 16
+            }
+          ],
+          "name": "Sydväst",
+          "id": 8
+        },
+        {
+          "directions": [
+            {
+              "name": "224 - Från centrum",
+              "id": 17
+            },
+            {
+              "name": "44  - Mot centrum",
+              "id": 18
+            }
+          ],
+          "name": "Nordöst",
+          "id": 9
+        }
+      ],
+      "name": "C1019 - Lambohovsleden",
+      "id": 5
+    },
+    {
+      "lines": [
+        {
+          "directions": [
+            {
+              "name": "258 - Mot Storgatan",
+              "id": 19
+            },
+            {
+              "name": "78 - Mot Gamla Tanneforsvägen",
+              "id": 20
+            }
+          ],
+          "name": "Stångebro",
+          "id": 10
+        },
+        {
+          "directions": [
+            {
+              "name": "344 - Mot Stångebro",
+              "id": 21
+            },
+            {
+              "name": "164 - Mot Drottningbron",
+              "id": 22
+            }
+          ],
+          "name": "Brandmannagatan",
+          "id": 11
+        }
+      ],
+      "name": "C1002 - Stångebro",
+      "id": 6
+    },
+    {
+      "lines": [
+        {
+          "directions": [
+            {
+              "name": "286 - Mot Tannefors",
+              "id": 23
+            },
+            {
+              "name": "106 - Mot Saab",
+              "id": 24
+            }
+          ],
+          "name": "Gelbgjutaregatan",
+          "id": 12
+        }
+      ],
+      "name": "C1014 - Saab",
+      "id": 7
+    },
+    {
+      "lines": [
+        {
+          "directions": [
+            {
+              "name": "95 - Från Ryd",
+              "id": 25
+            },
+            {
+              "name": "275 - Mot Ryd",
+              "id": 26
+            }
+          ],
+          "name": "Väst",
+          "id": 13
+        },
+        {
+          "directions": [
+            {
+              "name": "312 - Från Valla",
+              "id": 27
+            },
+            {
+              "name": "132 - Mot Valla",
+              "id": 28
+            }
+          ],
+          "name": "Nordöst",
+          "id": 14
+        },
+        {
+          "directions": [
+            {
+              "name": "220 - Från Gottfridsberg",
+              "id": 29
+            },
+            {
+              "name": "40 - Mot Gottfridsberg",
+              "id": 30
+            }
+          ],
+          "name": "Sydöst",
+          "id": 15
+        }
+      ],
+      "name": "C1024 - Vallarondellen",
+      "id": 8
+    },
+    {
+      "lines": [
+        {
+          "directions": [
+            {
+              "name": "8 - Från Saab",
+              "id": 31
+            },
+            {
+              "name": "188 - Mot Saab",
+              "id": 32
+            }
+          ],
+          "name": "Syd",
+          "id": 16
+        },
+        {
+          "directions": [
+            {
+              "name": "206 - Från Tallboda",
+              "id": 33
+            },
+            {
+              "name": "26 - Mot Tallboda",
+              "id": 34
+            }
+          ],
+          "name": "Norr",
+          "id": 17
+        },
+        {
+          "directions": [
+            {
+              "name": "128 - Från rondellen",
+              "id": 35
+            },
+            {
+              "name": "308 - Mot rondellen",
+              "id": 36
+            }
+          ],
+          "name": "Öst",
+          "id": 18
+        }
+      ],
+      "name": "C1026 - Kallerstarondellen",
+      "id": 9
+    },
+    {
+      "lines": [
+        {
+          "directions": [
+            {
+              "name": "94 - Från Knektgatan",
+              "id": 37
+            },
+            {
+              "name": "274 - Mot Knektgatan",
+              "id": 38
+            }
+          ],
+          "name": "Väst",
+          "id": 19
+        },
+        {
+          "directions": [
+            {
+              "name": "211 - Från centrum",
+              "id": 39
+            },
+            {
+              "name": "31 - Mot centrum",
+              "id": 40
+            }
+          ],
+          "name": "Norr",
+          "id": 20
+        }
+      ],
+      "name": "C1017 - Berga, tinnerbäcken",
+      "id": 10
+    },
+    {
+      "lines": [
+        {
+          "directions": [
+            {
+              "name": "295 - Från Vidingsjö",
+              "id": 41
+            },
+            {
+              "name": "115 - Mot Vidingsjö",
+              "id": 42
+            }
+          ],
+          "name": "Öst",
+          "id": 21
+        },
+        {
+          "directions": [
+            {
+              "name": "218 - Från Berga",
+              "id": 43
+            },
+            {
+              "name": "38 - Mot Berga",
+              "id": 44
+            }
+          ],
+          "name": "Norr",
+          "id": 22
+        },
+        {
+          "directions": [
+            {
+              "name": "115 - Från Garnisonsrondellen",
+              "id": 45
+            },
+            {
+              "name": "295 - Mot Garnisonsrondellen",
+              "id": 46
+            }
+          ],
+          "name": "Väst",
+          "id": 23
+        }
+      ],
+      "name": "C1025 - Coop garnison",
+      "id": 11
+    },
+    {
+      "lines": [
+        {
+          "directions": [
+            {
+              "name": "281 - Mot Ryd",
+              "id": 47
+            },
+            {
+              "name": "101 - Mot Gottfridsberg",
+              "id": 48
+            }
+          ],
+          "name": "Stenbrötsgatan",
+          "id": 24
+        }
+      ],
+      "name": "C1010 - Rydsskogen",
+      "id": 12
+    },
+    {
+      "lines": [
+        {
+          "directions": [
+            {
+              "name": "158 - Från Ekängen",
+              "id": 49
+            },
+            {
+              "name": "338 - Mot Ekängen",
+              "id": 50
+            }
+          ],
+          "name": "Gumpekullavägen",
+          "id": 25
+        }
+      ],
+      "name": "C1023 - Gumpekulla",
+      "id": 13
+    },
+    {
+      "lines": [
+        {
+          "directions": [
+            {
+              "name": "137 - Mot Åbylund",
+              "id": 51
+            },
+            {
+              "name": "317 - Mot Barhäll",
+              "id": 52
+            }
+          ],
+          "name": "Grenadjärgatan",
+          "id": 26
+        }
+      ],
+      "name": "C1022 - Grenadjärgatan/Industrigatan",
+      "id": 14
+    },
+    {
+      "lines": [
+        {
+          "directions": [
+            {
+              "name": "351 - Från Lambohov",
+              "id": 53
+            },
+            {
+              "name": "171 - Mot Lambohov",
+              "id": 54
+            }
+          ],
+          "name": "Hertig Johans Allé",
+          "id": 27
+        },
+        {
+          "directions": [
+            {
+              "name": "81 - Från Universitetet",
+              "id": 55
+            },
+            {
+              "name": "261 - Mot Universitetet",
+              "id": 56
+            }
+          ],
+          "name": "Kunskapslänken",
+          "id": 28
+        }
+      ],
+      "name": "C1018 - Hertig Johans Allé",
+      "id": 15
+    },
+    {
+      "lines": [
+        {
+          "directions": [
+            {
+              "name": "37 - Från Barhäll",
+              "id": 57
+            },
+            {
+              "name": "217 - Mot Barhäll",
+              "id": 58
+            }
+          ],
+          "name": "Sydväst",
+          "id": 29
+        },
+        {
+          "directions": [
+            {
+              "name": "314 - Från Vasastaden",
+              "id": 59
+            },
+            {
+              "name": "134 - Mot Vasastaden",
+              "id": 60
+            }
+          ],
+          "name": "Sydöst",
+          "id": 30
+        },
+        {
+          "directions": [
+            {
+              "name": "153 - Från Tornby",
+              "id": 61
+            },
+            {
+              "name": "333 - Mot Tornby",
+              "id": 62
+            }
+          ],
+          "name": "Nordväst",
+          "id": 31
+        }
+      ],
+      "name": "C1020 - Bergsrondellen",
+      "id": 16
+    },
+    {
+      "lines": [
+        {
+          "directions": [
+            {
+              "name": "350 - Mot centrum",
+              "id": 63
+            },
+            {
+              "name": "170 - Från centrum",
+              "id": 64
+            }
+          ],
+          "name": "Klostergatan",
+          "id": 32
+        }
+      ],
+      "name": "C1005 - Klostergatan",
+      "id": 17
+    },
+    {
+      "lines": [
+        {
+          "directions": [
+            {
+              "name": "75 - Mot centrum",
+              "id": 65
+            },
+            {
+              "name": "255 - Från centrum",
+              "id": 66
+            }
+          ],
+          "name": "Norra sidan",
+          "id": 33
+        },
+        {
+          "directions": [
+            {
+              "name": "75 - Mot centrum",
+              "id": 67
+            },
+            {
+              "name": "255 - Från centrum",
+              "id": 68
+            }
+          ],
+          "name": "Södra sidan",
+          "id": 34
+        }
+      ],
+      "name": "C1008 - Malmslättsvägen",
+      "id": 18
+    },
+    {
+      "lines": [
+        {
+          "directions": [
+            {
+              "name": "185 - Från Steningeviadukten",
+              "id": 69
+            },
+            {
+              "name": "5 - Mot Steningeviadukten",
+              "id": 70
+            }
+          ],
+          "name": "Norr",
+          "id": 35
+        },
+        {
+          "directions": [
+            {
+              "name": "90 - Från Åbylund",
+              "id": 71
+            },
+            {
+              "name": "270 - Mot Åbylund",
+              "id": 72
+            }
+          ],
+          "name": "Väst",
+          "id": 36
+        },
+        {
+          "directions": [
+            {
+              "name": "349 - Från Vasastaden",
+              "id": 73
+            },
+            {
+              "name": "169 - Mot Vasastaden",
+              "id": 74
+            }
+          ],
+          "name": "Syd",
+          "id": 37
+        }
+      ],
+      "name": "C1021 - Steningenrondellen",
+      "id": 19
+    },
+    {
+      "lines": [
+        {
+          "directions": [
+            {
+              "name": "197 - Från centrum",
+              "id": 75
+            },
+            {
+              "name": "17 - Mot centrum",
+              "id": 76
+            }
+          ],
+          "name": "Väst",
+          "id": 38
+        },
+        {
+          "directions": [
+            {
+              "name": "197 - Från centrum",
+              "id": 77
+            },
+            {
+              "name": "17 - Mot centrum",
+              "id": 78
+            }
+          ],
+          "name": "Öst",
+          "id": 39
+        }
+      ],
+      "name": "C1006 - Djurgårdsgatan",
+      "id": 20
+    },
+    {
+      "lines": [
+        {
+          "directions": [
+            {
+              "name": "257 - Mot Stora Torget",
+              "id": 79
+            },
+            {
+              "name": "77 - Mot S:t Larsgatan",
+              "id": 80
+            }
+          ],
+          "name": "Storgatan",
+          "id": 40
+        }
+      ],
+      "name": "C1001 - Storgatan",
+      "id": 21
+    },
+    {
+      "lines": [
+        {
+          "directions": [
+            {
+              "name": "170 - Mot Stora Torget",
+              "id": 81
+            },
+            {
+              "name": "350 - Mot Vasastaden",
+              "id": 82
+            }
+          ],
+          "name": "Platensgatan",
+          "id": 41
+        },
+        {
+          "directions": [
+            {
+              "name": "80 - Mot S:t Larsgatan",
+              "id": 83
+            },
+            {
+              "name": "260 - Mot Östgötagatan",
+              "id": 84
+            }
+          ],
+          "name": "Vasavägen",
+          "id": 42
+        }
+      ],
+      "name": "C1027 - Platensgatan",
+      "id": 22
+    }
+  ]
+}

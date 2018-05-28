@@ -1,0 +1,18 @@
+.info-box-content {
+  color: #928779;
+
+}
+.info-box-title {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.info-box-small {
+	font-size: 10px;
+  display: none;
+}
+/* Cluster */
+.map > div > div > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(3) > div {
+  filter: invert(100%) saturate(150%) grayscale(40%);
+}

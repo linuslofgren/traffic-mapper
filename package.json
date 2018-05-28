@@ -1,0 +1,14 @@
+{
+  "name": "maps",
+  "version": "1.0.0",
+  "description": "Map viewer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Linus von Ekensteen Löfgren",
+  "license": "Copyright 2018",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
