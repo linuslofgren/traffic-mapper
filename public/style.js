@@ -302,4 +302,4 @@ var rawStyle = `[
     ]
   }
 ]`
-var mapStyle = JSON.parse(rawStyle)
+window.mapStyle = JSON.parse(rawStyle)
