@@ -1,7 +1,7 @@
 /* global crossfilter */
 'use strict'
 
-window.DataController = (rawData) => {
+window.DataController = function (rawData) {
   // {data, primaryKey, otherKeys, highlightFunctions}) {
 
   var dataCrossfilter

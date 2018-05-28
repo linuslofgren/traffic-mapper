@@ -204,20 +204,39 @@ svg text {
 	justify-content: center;
 	align-items: center;
 }
-.info-chart-title {
+.info-chart-title-container {
 	font-family: sans-serif;
-	font-size: 1.1em;
 	color: #444140;
 	font-weight: bold;
-	margin-left: 13px;
-	margin-bottom: 3px;
+  display: block;
+  flex-direction: row;
+  width: 100%;
+	/* margin-left: 13px; */
+	/* margin-bottom: 3px; */
+}
+.info-chart-title {
+  font-size: 15px;
+  margin: 0;
+  margin-bottom: 3px;
+}
+.info-chart-sub {
+  margin: 0;
+  font-size: 13px;
+  font-weight: bolder;
+  color: #777474;
+}
+.info-chart-title-container-inner {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 .canvas-container {
 	display: flex;
 	flex-direction: column;
 	max-height: 230px;
 	width: 100%;
-	max-width: 180px;
+	max-width: 210px;
 }
 .picker-inView {
 	margin: 0;

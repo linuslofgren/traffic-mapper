@@ -62,9 +62,11 @@ function redraw (dataController, radarChart, barChart) {
   dataPoints.map((direction, i) => {
     console.log(i)
     var vs = direction.value
-    barChart.canvas.previousElementSibling.innerHTML = direction.key
+    barChart.canvas.previousElementSibling.firstChild.firstChild.innerHTML = vs.name
+    var tot = vs.cars + vs.cyc + vs.ped
+    var suffix = tot > 1000 ? (() => { tot = Math.floor(tot / 1000); return 'k' })() : ''
+    barChart.canvas.previousElementSibling.firstChild.lastChild.innerHTML = tot + suffix + ' passager'
     barChart.data.datasets[i] = {}
-    barChart.data.datasets[i].label = direction.key
     barChart.data.datasets[i].data = [vs.cars, vs.cyc, vs.ped]
     barChart.data.labels = ['🚗', '🚴🏾', '🚶‍']
     barChart.update()
