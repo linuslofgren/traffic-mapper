@@ -27,7 +27,6 @@ window.Mapper = class {
     popup.map = this.map
   }
   addContentToMarkers (contentForMarker) {
-    console.log(this.markers)
     this.markers.forEach(contentForMarker)
   }
   addContent (marker, content, id, callback, sidebar, sidebarData) {
@@ -52,9 +51,7 @@ window.Mapper = class {
     }
   }
   addMarkers ({markers, inClusters = false} = {}) {
-    console.log(Mapper.makeMarker)
     this.markers = markers.map(Mapper.makeMarker)
-    console.log(this.markers.map((m) => m.getPosition().lat()))
     if (inClusters) {
       var markerCluster = new MarkerClusterer(this.map, this.markers, {
         imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
@@ -75,8 +72,6 @@ window.Mapper = class {
         anchor: new google.maps.Point(size / 2, size / 2)
       }
     })
-
-    console.log(marker.getPosition())
     return marker
   }
 
